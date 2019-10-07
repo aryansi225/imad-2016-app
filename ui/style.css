@@ -1,0 +1,171 @@
+body {
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+.main {
+	background: url(/ui/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#container {
+	height: 800px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.header {
+	margin-top: 0px;
+	width: 100%;
+}
+
+.logo {
+	float: left;
+	margin-top: 20px;
+	margin-left: 25px;
+}
+nav {
+	float: right;
+	margin-top: 26px;
+}
+
+.navbar {
+	color: #fff;
+	font-size: 20px;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 20px;
+	text-decoration: none;
+}
+span {
+	width: 100%;
+}
+
+h1 {
+	font-size: 80px;
+	color: #fff;
+	text-align: center;
+	clear: both;
+	padding-top: 200px;
+}
+
+h2 {
+	font-size: 36px;
+	color: #fff;
+	text-align: center;
+	clear: both;
+	margin-top: -60px;
+}
+
+/*HEADER SECTION*/
+#head {
+	width: 100%;
+	height: 350px;
+	background-image: url(/ui/header-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.typewrite {
+	padding-top: -2%;
+	padding-bottom: 50px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.avatar {
+	margin-top: 130px;
+	margin-left: 175px;
+	margin-bottom: 100px;
+}
+
+.about{
+	width: 500px;
+	float: right;
+	text-align:justify;
+	padding-top: 100px;
+	padding-right: 180px;
+	padding-bottom: 100px;
+}
+
+.abt{
+	font-size: 40px;
+	text-align: left;
+	font-face: Roboto;
+	color: #18ffff;
+	padding-top: 30px;
+}
+.avatar2{
+	padding-top: 150px;
+	padding-left: 175px;
+}
+.avatar3{
+	padding-top: 250px;
+	padding-left: 175px;
+}
+
+/*FOOTER SECTION*/
+footer {
+	width: 100%;
+	height: 550px;
+	background-color: #183951;
+	margin-top: 500px;
+}
+
+#foot {
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+div.social {
+	float: left;
+	margin-top: 50px;
+}
+
+a.social {
+	margin-right: 15px;
+}
+
+div.contact {
+	float: right;
+	margin-right: 50px;
+	margin-top: 50px;
+}
+
+label {
+	color: #ffffff;
+}
+
+input.text {
+	height: 30px;
+	width: 250px;
+	border-radius: 3px;
+	border: none;
+}
+
+textarea.message {
+	height: 100px;
+	width: 250px;
+	border-radius: 3px;
+	border: none;
+}
+
+input.submit {
+	width: 60px;
+	height: 30px;
+	background-color: #ffffff;
+	color: #183951;
+	border: none;
+	border-radius: 3px;
+}
+
+input.submit:hover {
+	text-decoration: underline;
+}
+
+.connect {
+	color: #ffffff;
+}
